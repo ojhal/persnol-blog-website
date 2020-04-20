@@ -1,9 +1,11 @@
 @import"web.css";
+@import"blog.css";
+@import"page.css";
 h1 {
     color: red;
     font-family: arial;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
     text-indent: 50px;
     text-decoration: underline red;
