@@ -1,6 +1,7 @@
 @import"web.css";
 @import"blog.css";
 @import"page.css";
+
 h1 {
     color: red;
     font-family: arial;
@@ -14,15 +15,20 @@ h1 {
     background: rgba(0, 0, 0, 0.5);
 
 }
-@media(max-width:600px){
-.container {
-    display: flex;
-    flex-direction: row;
-    border: 2px solid white;
-    justify-content:space-around;
-    flex-wrap: wrap;
+
+@media(max-width:600px) {
+    .container {
+        display: grid;
+        grid-gap: 10px;
+        grid-column-gap: 50px;
+        grid-row-gap: 50px;
+        grid-template-columns: auto auto auto auto;
+        padding: 10px;
+        border: 2px solid white;
+        justify-content: space-around;
+        flex-wrap: wrap;
     }
-   
+
 }
 
 .card {
@@ -33,9 +39,11 @@ h1 {
     margin: 10px auto;
     display: inline-block;
 }
-h3{
-    color:brown;
+
+h3 {
+    color: brown;
 }
-footer{
+
+footer {
     color: maroon;
 }
