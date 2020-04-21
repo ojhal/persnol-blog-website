@@ -33,7 +33,7 @@
 }
 
 #menu {
-    display: inline-;
+    display: inline;
 }
 
 #menu li a {
@@ -91,4 +91,18 @@
     position: relative;
 
 
+}
+img {
+
+    border-radius: 75%;
+    display: flex;
+    height: 50px;
+
+}
+
+@media screen and (max-width:800px){
+    #avatar ,  #header , 
+    #header h1 , #menu , #menu li a , 
+    #menu ul , #content , 
+    #content h2  , #sidebar , #sidebar a , #footer , #list , img {width: 100%;}
 }
