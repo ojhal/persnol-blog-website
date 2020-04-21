@@ -1,13 +1,11 @@
-
 .button{
     /* position: absolute; */
 	/* left: 50%; */
 	display: inline;
-	transform: translate(-50%,50%);
     border: 1px solid black;
 	padding: 5px 5px;  
 	color: red;
-    text-decoration: none;
+	text-decoration: none;
 }
 .btn:hover{
 	background-color: red;
