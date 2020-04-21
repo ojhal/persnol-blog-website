@@ -22,7 +22,7 @@ h1 {
         grid-gap: 10px;
         grid-column-gap: 50px;
         grid-row-gap: 50px;
-        grid-template-columns: auto auto auto auto;
+        flex-direction: row;
         padding: 10px;
         border: 2px solid white;
         justify-content: space-around;
@@ -46,4 +46,10 @@ h3 {
 
 footer {
     color: maroon;
+}
+.figure picture{
+    border-radius: 155%;
+    display: flex;
+    height: 150px;
+
 }
